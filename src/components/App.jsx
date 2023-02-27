@@ -1,16 +1,13 @@
-export const App = () => {
+import Test from './Test/Test';
+import '../styles/style.scss'; //npm i sass
+const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      <h1>заголовок App</h1>
+      <p>jnjuhugyg</p>
+      <Test></Test>
+    </>
   );
 };
+
+export default App;

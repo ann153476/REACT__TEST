@@ -4,7 +4,6 @@ const App = () => {
   return (
     <>
       <h1>заголовок App</h1>
-      <p>jnjuhugyg</p>
       <Test></Test>
     </>
   );
